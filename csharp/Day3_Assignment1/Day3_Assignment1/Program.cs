@@ -1,10 +1,10 @@
-﻿Console.Write("Enter year: ");
+﻿Console.Write("Enter a year: ");
 int year = int.Parse(Console.ReadLine());
 
-Console.Write("Enter month (1-12): ");
+Console.Write("Enter any month (1-12): ");
 int month = int.Parse(Console.ReadLine());
 
-Console.Write("Enter Day of week: ");
+Console.Write("Enter Day of week(1-M,2-T,3-W,....,7-S): ");
 int day = int.Parse(Console.ReadLine());
 
 int DaysInMonth = DateTime.DaysInMonth(year, month);
